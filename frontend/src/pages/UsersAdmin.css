@@ -1,0 +1,4 @@
+.pw-form{display:flex;gap:8px;align-items:center}
+.pw-form input{width:170px;padding:7px 10px}
+.pw-form .btn{padding:7px 12px}
+.chip.you{margin-left:8px;background:var(--saffron-soft);color:var(--amber)}
