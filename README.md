@@ -95,8 +95,9 @@ CitizenConnect/
 
 ## Deploy on Vercel
 
-`vercel.json`, `api/index.py` and the root `requirements.txt` are already set up:
-the React build is served by Vercel's CDN and Flask runs as a Python function.
+`vercel.json` defines a project with two services: `frontend` (Vite/React, served
+from the CDN) and `backend` (Flask in `backend/`). `/api/*` and `/uploads/*` are
+routed to `backend`; everything else goes to `frontend`. Test locally with `vercel dev`.
 
 1. Push this folder to GitHub, then on vercel.com: **Add New → Project → Import** the repo.
    (Or from this folder run: `npx vercel --prod`.)

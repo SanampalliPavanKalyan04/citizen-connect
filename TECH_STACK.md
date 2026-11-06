@@ -37,7 +37,7 @@
 | Technology | Used for |
 |---|---|
 | Vercel (Hobby plan) | Hosting the website and the API |
-| Vercel Serverless Functions (Python) | Running Flask at /api/* (api/index.py) |
+| Vercel Serverless Functions (Python) | Running Flask (backend service) at /api/* and /uploads/* |
 | Vercel environment variables | SECRET_KEY, JWT_SECRET_KEY, DATABASE_URL, ADMIN_EMAIL, SEED_DEMO |
 | Live URL | https://citizen-connect-mu.vercel.app |
 
